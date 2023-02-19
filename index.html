@@ -15,13 +15,26 @@
 <body>
     <nav id="mainNavbar"class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
         <!-- not often to have more than one navbar, but you could -->
-        <a class="navbar-brand" href="#">CANDY</a>
-        <a class="navbar-brand" href="#">HOME</a>
-        <a class="navbar-brand" href="#">ABOUT</a>
-        <a class="navbar-brand" href="#">TICKETS</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav item">
+                    <a href="#" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- i did it with links this time because i feel like its a shorter way to potentially
+        add some effects later. interested in making each nav-link, when selected, grow in size
+        when hovered and active -->
     </nav>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
