@@ -3,6 +3,10 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.content{
+    margin-top: 100px;
+}
+
 .blurb h2{
     /* reminder that this is saying "all h2's inside of class "blurb" */
     color: #EA1C2C;
