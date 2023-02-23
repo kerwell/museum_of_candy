@@ -1,0 +1,2 @@
+Feb 22 23
+- a project using bootstrap. its been a while since I last coded, so it took longer than it really needed to be. I had to relearn some things, but didn't take too long to get back on my feet.
