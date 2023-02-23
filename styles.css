@@ -3,6 +3,20 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.blurb h2{
+    /* reminder that this is saying "all h2's inside of class "blurb" */
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
 #mainNavbar {
     font-weight: 100;
     font-size: 1.5rem;
