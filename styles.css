@@ -3,18 +3,18 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-.content{
+.content {
     margin-top: 100px;
 }
 
-.blurb h2{
+.blurb h2 {
     /* reminder that this is saying "all h2's inside of class "blurb" */
     color: #EA1C2C;
     font-weight: 100;
     font-size: 2.5rem;
 }
 
-.blurb p{
+.blurb p {
     color: #f498b8;
     font-weight: 100;
     font-size: 1.25rem;
@@ -51,6 +51,12 @@ target class="navbar-brand" */
 
 #headingGroup span {
     color: #EA1C2C;
+}
+
+#mainNavbar.scrolled{
+    /* when there is no spaces, this reads as "this id with the class 'scrolled'" */
+    background-color: rgb(222, 192, 222);
+    transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
